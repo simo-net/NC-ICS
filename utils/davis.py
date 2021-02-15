@@ -12,7 +12,7 @@ def adapt_dtype(array):
         return array.astype(np.uint64)
 
 
-class handle_dvs:
+class dvs_handler:
 
     def __init__(self, data, shape):
         self.N_x, self.N_y = shape
