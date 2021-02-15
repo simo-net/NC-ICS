@@ -49,7 +49,7 @@ class dvs_handler:
             data (np.ndarray): events array as input data but resetting all timestamps according to the first one (so
                 that the timestamp of the first event is 0).
         """
-        if data:
+        if data is not None:
             data[:, 0] -= data[0, 0]
             return data
         else:
@@ -160,7 +160,7 @@ class dvs_handler:
                 time-windows. Its shape is Nx(y_dim)x(x_dim) where N is the number of frames and x_dim, y_dim are the
                 dimensions of the pixel array).
         """
-        if not data:
+        if data is None:
             data = self.flat_data
         if not duration:
             duration = (data[-1, 0] - data[0, 0]) * 10 ** -6  # seconds
