@@ -2,7 +2,7 @@ numpy
 brian2
 scipy
 scikit-image
-matplotlib
+matplotlib==3.5
 opencv-python
 jupyter
 torch
