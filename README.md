@@ -1,5 +1,5 @@
 # NC-ICS
-Exercises for the class **Neuromorphic Computing and Integrative Cognitive Systems** (a.y. 2020-2023) held by prof. Silvio P. Sabatini @ DIBRIS (University of Genoa).
+Exercises for the class **Neuromorphic Computing and Integrative Cognitive Systems** (a.y. 2020-2023) held by prof. Silvio P. Sabatini @ DIBRIS (University of Genoa, Italy).
 
 To play with these notebooks on Colab go to http://colab.research.google.com/github and type "simo-net", navigate to the "NC-ICS" repository and choose the notebook you want to open.
 
